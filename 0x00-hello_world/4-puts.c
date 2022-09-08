@@ -4,7 +4,7 @@
  * function_name: main, entry point
  * @parameter: void
  (* 
- * Description: The function is the main entrly point for the program.)? 
+ * Description: Entrly point)? 
  (*sectin_header: main function)*
  * Return: a function will not return any value. 
  */
