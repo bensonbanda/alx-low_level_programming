@@ -4,7 +4,7 @@
  * main - Entry point
  * @void: will not have any parameter
  * Description: print some words to the screen
- * Return: a function will not return any value. 
+ * Return: none
  */
 int main(void)
 {
