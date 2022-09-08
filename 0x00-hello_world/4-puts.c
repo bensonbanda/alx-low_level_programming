@@ -2,7 +2,7 @@
 
 /**
  * function_name: main, entry point
- * @parametervoid: function will not have parameters
+ * @parameter: function will not have parameters
  (* 
  * Description: The function is the main entrly point for the program.)? 
  (*sectin_header: main function)*
