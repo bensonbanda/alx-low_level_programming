@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE && cat 2-main.s | head -n 676 
+gcc -S $CFILE && cat 2-main.s && head -n 676 2-main.s
