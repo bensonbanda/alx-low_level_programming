@@ -7,7 +7,7 @@
 /**
  * Main - Entrly point
  * @void: no parameters
- * Description: THe function will print negative and postive intergers.
+ * Description: The function will print negative and postive intergers.
  * Return: zero value will be returned.
  */
 
