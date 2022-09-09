@@ -5,4 +5,4 @@
 4-puts.c will some words to the screen
 5-printf.c will print some text using printf.
 6-size.c will print sizes of data types.
-
+100-intel will printout the assembly code to the screen.
