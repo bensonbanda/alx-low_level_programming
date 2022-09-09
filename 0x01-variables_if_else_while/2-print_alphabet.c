@@ -1,15 +1,11 @@
 #include <stdio.h>
-
+	
 /**
- * Main - Entrly point
- *
- * @void: zero parameter
- *
- * Description: print alphabet to the screen.
- *
- * Return: zero
+ * main - entrly point
+ * @void: no parameter
+ * Description: print alphabet to screen
+ * Return: Zero value
  */
-
 int main(void)
 {
 	char alpha[27] = "abcdefghijklmnopqrstuvwxyz";
