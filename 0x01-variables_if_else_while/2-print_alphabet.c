@@ -10,7 +10,7 @@
 int main(void)
 {
 	char alpha[27] = "abcdefghijklmnopqrstuvwxyz";
-	
+
 	puts(alpha);
 
 	return (0);
