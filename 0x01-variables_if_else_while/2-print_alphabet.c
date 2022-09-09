@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[27] = "abcdefghijklmnopqrstuvwxyz";
 	
 	puts(alpha);
 
