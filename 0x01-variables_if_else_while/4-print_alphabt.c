@@ -9,7 +9,7 @@
 int main(void)
 {
 	char alpha[] = "abceddddd";
-	putchar(alpha);
+	putchar("%s", alpha);
 
 	return (0);
 }
