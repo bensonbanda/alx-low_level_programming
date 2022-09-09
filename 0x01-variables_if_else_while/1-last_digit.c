@@ -14,7 +14,8 @@ int main(void){
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int ldigit = n % 10;
+	int ldigit;
+	ldigit = n % 10;
 
 	switch(n)
 	{
