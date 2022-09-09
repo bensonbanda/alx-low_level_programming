@@ -2,8 +2,11 @@
 
 /**
  * Main - Entrly point
+ *
  * @void: zero parameter
+ *
  * Description: print alphabet
+ *
  * Return: zero
  */
 
