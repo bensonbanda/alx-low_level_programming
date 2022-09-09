@@ -5,7 +5,7 @@
  *
  * @void: zero parameter
  *
- * Description: print alphabet
+ * Description: print alphabet to the screen.
  *
  * Return: zero
  */
