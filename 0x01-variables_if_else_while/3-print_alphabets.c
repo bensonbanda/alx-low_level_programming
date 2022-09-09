@@ -9,11 +9,10 @@
 
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvxyz";
-	char alpha2[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alpha[] = "abcdefghijklmnopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVWXTZ";
+	/*char alpha2[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";*/
 
 	puts(alpha);
-	puts(alpha2);
 
 	return (0);
 }
