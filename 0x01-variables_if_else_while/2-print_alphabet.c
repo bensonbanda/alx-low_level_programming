@@ -2,9 +2,9 @@
 
 /**
  * Main - Entrly point
- * @void: zerop parameter
- * Description: function will print alphabetic letters
- * Return: zero value
+ * @void: zero parameter
+ * Description: print alphabet
+ * Return: zero
  */
 
 int main(void)
