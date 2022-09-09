@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * Main - Entrly point
- * @void: no parameters
- * Description: print negative and postive intergers.
- * Return: zero value will be returned.
+ * main - entrly point
+ * @void - no paarameter
+ * Description: will print intergers
+ * Return: Zero
  */
-
 int main(void)
 {
 	int n
