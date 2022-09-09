@@ -18,17 +18,12 @@ int main(void){
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
 
-	switch(n)
-	{
-	case(n > 5):
-		printf("The last digit of %d is %d and is greater than 5", n,m);
-		break;
-	case(n == 0):
+	if (n > 5)
+		printf("The last digit of %d is %d and is greater than 5", n,m);  
+	else if (n == 0)
+		printf("The last digit of %d is %d and is 0", n,m); 
+	else if (n < 6 && n !=0)
 		printf("The last digit of %d is %d and is 0", n,m);
-		break;
-	case(n < && n != 0):
-		printf("The last digit of %d is %d and is 0", n,m);
-		break;
-	}
-	return (0);
+	
+	return(0);
 }
