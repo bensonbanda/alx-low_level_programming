@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE && cat 100-main.s | nl
+gcc -S $CFILE && cat 100-main.s | wc -l 28
