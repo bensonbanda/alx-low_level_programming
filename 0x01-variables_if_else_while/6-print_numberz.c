@@ -5,6 +5,6 @@ int main(void)
 	int first = 0;
 	int second = 123456789;
 
-	puts(first, second);
+	puts((char)first);
 	return (0);
 }
