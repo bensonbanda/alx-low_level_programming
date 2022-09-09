@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char alpha[] = "zxaddad";
+	char alpha[] = "zyxwvutsrqponmlkjihgfedcba";
 
 	puts(alpha);
 
