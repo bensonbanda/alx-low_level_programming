@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	char alpha[] = "abceddddd";
+	char alpha[] = "abcdfghijklmnoprstuvwxyz";
+
 	puts(alpha);
 
 	return (0);
