@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-
+	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 	puts(alpha);
 
 	return (0);
