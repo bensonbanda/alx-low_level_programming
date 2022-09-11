@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * main - entrly point
  * @void: no parameters
  * Description: will print decimal numbers from 0 -9
  * Return: zero value
