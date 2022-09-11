@@ -1,10 +1,4 @@
 #include <stdio.h>
-/**                                                                                                                                     
- *  * main - entrly point                                                                                                                  
- *   * @void: zero parameter                                                                                                                
- *    * Description: will print numbers to screen                                                                                            
- *     * Return: zero value                                                                                                                   
- *      */        
 /**
  * main - entrly point
  * @void: no parameters
