@@ -1,10 +1,18 @@
 #include <stdio.h>
+/**
+ * @void: no parameters
+ * Description: will print decimal numbers from 0 -9
+ * Return: zero value
+ */
 
 int main(void)
 {
-	int first = 0;
-	int second = 123456789;
+	int numbers;
 
-	puts((char)first);
+	for (numbers = 0; numbers < 10; numbers++ )
+		puts(( num % 10 ) + '0' );
+
+	putchar('\n');
+
 	return (0);
 }
