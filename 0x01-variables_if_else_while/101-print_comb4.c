@@ -23,7 +23,6 @@ int main(void)
 			if (number1 == 98 && number2 == 99)
 				continue;
 
-			putchar(',');
 			
 		}
 	}
