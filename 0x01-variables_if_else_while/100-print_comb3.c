@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int number1,number2;
+	int number1, number2;
 
 	for (number1 = 0; number1 < 9; number1++)
 	{
@@ -24,7 +24,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	
 	putchar('\n');
 
 	return (0);
