@@ -2,4 +2,4 @@
 1-alphabet.c wil display alphabet characters in small letters
 
 3-islower.c will return 1 if character is lowercase otherwise will return
-
+4-isalpha.c will display if a characeter isletter or not.
