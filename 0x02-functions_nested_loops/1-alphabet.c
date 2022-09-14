@@ -3,7 +3,7 @@
 /**
  * print_alphbet characters
  * @void: no parameters
- * Description: the function will display the results from the other fun
+ * Description: the function will display the alphabet characters.
  * Return: zero value
  */
 
@@ -17,4 +17,3 @@ void print_alphabet(void)
 	_putchar('\n');
 
 }
-
