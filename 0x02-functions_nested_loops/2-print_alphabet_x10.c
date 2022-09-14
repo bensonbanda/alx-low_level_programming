@@ -14,8 +14,8 @@ void print_alphabet_x10(void)
 	while (number++ <= 9)
 	{
 		for (number2 = 97; number2 <= 122; number2++)
-			putchar(number2);
-		putchar('\n');
+			_putchar(number2);
+		_putchar('\n');
 	}
 
 }
