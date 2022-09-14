@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphbet characters
+ * print_alphbet - the function will display the alphabet characters.
  * @void: no parameters
- * Description: the function will display the alphabet characters.
  * Return: zero value
  */
 
