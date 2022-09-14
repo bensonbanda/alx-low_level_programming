@@ -13,10 +13,14 @@ int _abs(int v)
 		v *= -1;
 
 		_putchar(v);
+		return (v);
 	}
 
 	else
-		putchar(v);
+	{
+		_putchar(v);
+		return (v);
+	}
 	
 	return (0);
 }
