@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  *_abs - will print absolute numbers
  *@v: interger parameter
- *Return: interger value
+ *Return: absolute values
  */
 
 int _abs(int v)
