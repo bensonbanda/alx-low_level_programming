@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	
+
 	putchar(95);
 	putchar(112);
 	putchar(117);
@@ -21,4 +21,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
