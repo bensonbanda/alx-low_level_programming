@@ -3,7 +3,7 @@
 /**
  * Main - entrly point
  * @void: no parameters
- * Description: the function will display putchar to the screen
+ * Description: the function will display alphabet chars to the screen
  * Return: zero value
  */
 
