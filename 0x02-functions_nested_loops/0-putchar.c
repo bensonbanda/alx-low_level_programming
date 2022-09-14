@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * Main - entrly point
+ * main - entrly point
  * @void: no parameters
- * Description: the function will display alphabet chars to the screen
- * Return: zero value
+ * Description: display the alphabet chars
+ * Return: Zero value
  */
 
 int main(void)
