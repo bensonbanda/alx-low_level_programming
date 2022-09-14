@@ -2,7 +2,7 @@
 
 /**
  *_islower - will return 1 or 0
- *@int c: int parameter
+ *@c: interger parameter
  *Return: int
  */
 
