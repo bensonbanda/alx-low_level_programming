@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- *abs - display absolute values
+ *_abs - will print absolute numbers
  *@v: interger parameter
  *Return: interger value
  */
