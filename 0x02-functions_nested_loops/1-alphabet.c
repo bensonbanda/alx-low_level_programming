@@ -15,17 +15,3 @@ void print_alphabet(void)
 		_putchar(number);
 }
 
-
-/**
- * Main - Entrly point 
- * @void: no parameters
- * Description: the function will display alphabet characters
- * Return: zero value
- */
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
