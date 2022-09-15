@@ -3,7 +3,7 @@
 /**
  * print_numbers - will display numbers from zero to nine
  * @void: no parameters
- * Return: Nothing
+ * Return: zero value
  */
 
 void print_numbers(void)
