@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - the code will print numbers except two and four
  * @void: no parameters
- * Return: NOo value
+ * Return: No value
  */
 
 
@@ -17,6 +17,7 @@ void print_most_numbers(void)
 			continue;
 		
 		_putchar(digit);
+		
 		digit++;
 	}
 	
