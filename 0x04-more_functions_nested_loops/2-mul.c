@@ -2,7 +2,8 @@
 
 /**
  * mul - will display multiples of two numbers
- * @ab: two interger parameters
+ * @a: interger parameter
+ * @b: interger parameter
  * Return: interger value
  */
 
