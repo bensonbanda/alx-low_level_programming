@@ -9,6 +9,7 @@
 void print_rev(char *s)
 {
 	int var1 = 0, var2 = 0;
+	
 	var1 = _strlen(s);
 
 	for (var2 = var1 - 1; var2 >= 0; var2--)
@@ -32,7 +33,7 @@ int _strlen(char *s)
 
 	for (numb1 = 0; s[numb1] != '\0'; numb1++)
 		numb2++;
-	
+
 	return (numb2);
 }
 
