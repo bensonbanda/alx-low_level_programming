@@ -30,7 +30,7 @@ int _strlen(char *s)
 	numb1 = 0;
 	numb2 = 0;
 
-	while (numb1 = 0; s[numb1] != '\0'; numb1++)
+	for (numb1 = 0; s[numb1] != '\0'; numb1++)
 		numb2++;
 	
 	return (numb2);
