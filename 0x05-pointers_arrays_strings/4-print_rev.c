@@ -23,7 +23,7 @@ void print_rev(char *s)
  * Return: interger length
  */
 
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int numb1, numb2;
 
