@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - the function will swap variables values 
+ * swap_int - the function will swap variables values
  * @a: interger pointer
  * @b: interger pointer
  * Return: no value
