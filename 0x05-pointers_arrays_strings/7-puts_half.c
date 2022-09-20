@@ -36,10 +36,10 @@ int _strlen(char *s)
 
 	num1 = 0;
 
-	for (num1 = 0; s[num1] != '\0'; num1)\
+	for (num1 = 0; s[num1] != '\0'; num1++)
 		num2++;
 
-	return (num2)
+	return (num2);
 }
 
 
