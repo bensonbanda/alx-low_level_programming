@@ -14,6 +14,9 @@ void rev_string(char *s)
 	{
 		char a = *(s + number);
 		
+		if (a == "\0")
+			continue;
+
 		_putchar(a);
 		number--;
 	}
