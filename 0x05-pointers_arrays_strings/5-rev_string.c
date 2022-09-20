@@ -8,17 +8,29 @@
 
 void rev_string(char *s)
 {
-	int number = 10;
+	int len = _strlen(s);
 
-	while (number >= 0)
+	while (len >= 0)
 	{
-		char a = *(s + number);
+		char a = *(s + len);
 		
 		if (a == '\0')
 			continue;
 
 		_putchar(a);
-		number--;
+		
+		len--;
 	}
 	_putchar('\n');
+}
+
+int _strlen(char *s)
+{
+	int num1, num2;
+
+	for (num1 = 0; s[num1]; num1++)
+		num2++;
+
+	return (num2);
+
 }
