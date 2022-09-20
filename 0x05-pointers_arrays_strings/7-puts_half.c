@@ -25,7 +25,7 @@ void puts_half(char *str)
 }
 
 /**
- * strlen - return the length of an array
+ * _strlen - return the length of an array
  * @s: parameter
  * Return: interger value
  */
