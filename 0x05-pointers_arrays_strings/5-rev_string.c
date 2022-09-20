@@ -13,9 +13,6 @@ void rev_string(char *s)
 	while (len >= 0)
 	{
 		char a = *(s + len);
-		
-		if (a == '\0')
-			continue;
 
 		_putchar(a);
 		
@@ -28,7 +25,7 @@ int _strlen(char *s)
 {
 	int num1, num2;
 
-	for (num1 = 0; s[num1]; num1++)
+	for (num1 = 0; s[num1] != '\0'; num1++)
 		num2++;
 
 	return (num2);
