@@ -24,5 +24,5 @@ int _atoi(char *s)
 	}
 	while (*s++);
 
-i	return (num1 *num);
+	return (num1 *num);
 }
