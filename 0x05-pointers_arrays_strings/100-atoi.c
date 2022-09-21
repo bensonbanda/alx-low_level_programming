@@ -21,7 +21,8 @@ int _atoi(char *s)
 			num1 *= 10 + (*s - '0');
 		else if (num1 > 0)
 			break;
-	}while (*s++)
+	}
+	while (*s++)
 	{
 		return (num1 *num);
 	}
