@@ -22,8 +22,7 @@ int _atoi(char *s)
 		else if (num1 > 0)
 			break;
 	}
-	while (*s++)
-	{
-		return (num1 *num);
-	}
+	while (*s++);
+
+i	return (num1 *num);
 }
