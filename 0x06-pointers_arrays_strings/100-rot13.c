@@ -6,7 +6,7 @@
  * Return: encoded string
  */
 
-char *rot13(char *)
+char *rot13(char *str)
 {
 	int num, num2;
 
