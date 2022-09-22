@@ -7,7 +7,7 @@
  */
 
 
-char *leet(char *)
+char *leet(char *str)
 {
 	int num = 0, num2;
 	char leet[8] = {'b', 'L', '?', 'E', 'A', '?', '?', 'T'};
