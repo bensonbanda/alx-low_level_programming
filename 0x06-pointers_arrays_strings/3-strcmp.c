@@ -5,7 +5,6 @@
  *_strcmp - the function will be comparing two strings
  *@s1: character parameter
  *@s2: character parameter
- *
  *Return: interger value
  */
 
