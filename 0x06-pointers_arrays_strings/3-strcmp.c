@@ -2,14 +2,11 @@
 
 
 /**
- *_strcmp - the function will be comparing thow strrings
+ *_strcmp - the function will be comparing two strrings
  *@s1: character parameter
- *@s2: charcter parameter
- *
+ *@s2: character parameter
  *
  *Return: interger value
- *
- *
  */
 
 int _strcmp(char *s1, char *s2)
