@@ -1,6 +1,12 @@
 #include "main.h"
 
-char *cap_string(char *)
+/**
+ * cap_string - the function will capitalize each words of the string.
+ * @str: parameter
+ * Return: character value
+ */
+
+char *cap_string(char *str)
 {
 	int num = 0;
 
