@@ -25,6 +25,5 @@ int main (int argc, char *argv[])
 	answer = i * n;
 
 	printf("%d\n", answer);
-
 	return (0);
 }
