@@ -6,7 +6,7 @@
  *
  * @argc: parameter
  * @argv: parameter
- * Return: zero value
+ * Return: zero value, 1 on failure
  */
 
 int main (int argc, char *argv[])
