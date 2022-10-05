@@ -7,7 +7,7 @@
  *
  * @argc: parameter
  * @argv: parameter
- * Return: zero value else will return 1 if there is an error. 
+ * Return: zero value else will return one if there is an error. 
  */
 
 int main (int argc, char *argv[])
