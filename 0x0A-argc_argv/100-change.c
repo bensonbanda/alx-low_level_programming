@@ -7,44 +7,44 @@
  *
  * @argc: parameter
  * @argv: parameter
- * Return: zero value else will retun 1 if there is an error. 
+ * Return: zero value else will return 1 if there is an error. 
  */
 
 int main (int argc, char *argv[])
 {
-	int tambala, coins = 0;
+	int cents, coins = 0;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	tambala = atoi(argv[1]);
+	cents = atoi(argv[1]);
 
-	while (tambala > 0)
+	while (cents > 0)
 	{
-		tambala++;
-		if ((tambala - 25) >= 0)
+		cents++;
+		if ((cents - 25) >= 0)
 		{
-			tambala -= 25;
+			cents -= 25;
 			continue;
 		}
-		if ((tambala - 10) >= 0)
+		if ((cents - 10) >= 0)
 		{
-			tambala -= 10;
+			cents -= 10;
 			continue;
 		}
-		if ((tambala - 5) >= 0)
+		if ((cents - 5) >= 0)
 		{
-			tamabala -= 5;
+			cents -= 5;
 			continue;
 		}
-		if ((tambala - 2) >= 0)
+		if ((cents - 2) >= 0)
 		{
-			tambala -= 2;
+			cents -= 2;
 			continue;
 		}
-		tambala--;
+		cents--;
 	}
 	printf("%d\n", coins);
 
