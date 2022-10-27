@@ -10,27 +10,19 @@
 
 unsigned int bindary_to_uint (const char *b)
 {
-	unsigned int uinum;
-	int num, base_two;
+	unsigned int uinum = 0;
+	int num;
 
 	if (!b)
 		return (0);
 
-	uinum = 0;
-
-	for (num = 0; b[num] != '\0'; num++)
-		;
-
-	for (num--, base_two = 1; num >= 0; num >= 0; num--, base_two *= 2)
+	for (num = 0; b[num]; num++)
 	{
-		if (b[num] != '0' && b[num] != '1')
+
+		if (b[num] < '0' || b[num] > '1')
 			return (0);
-
-		if (b[num] & 1)
-			uinum += base_two;
+		uinum = 2 * uinum + (b[num] - '0');
 	}
-
 	return (uinum);
-
 
 }
