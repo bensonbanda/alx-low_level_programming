@@ -5,4 +5,5 @@
 4-clear_bit.c the program sets a value of a bit to 0 at a given index.
 5-flip_bits.c the program returns the number of bits you would need to 
 flip to get from one number to another.
+100-get_endianness.c the program checks the endianness.
 
